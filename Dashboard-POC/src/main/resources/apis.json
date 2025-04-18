@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "service": "Service 1",
+    "method": "GET",
+    "url": "http://localhost:8082/api/v1",
+    "description": "Get service 1",
+    "requestBody": null
+  },
+  {
+    "id": "2",
+    "service": "Post Service",
+    "method": "POST",
+    "url": "http://localhost:8081/invoke/1",
+    "description": "Create new post",
+    "requestBody": {
+      "userId": 1,
+      "title": "Hello World",
+      "body": "This is my first post"
+    }
+  }
+]
